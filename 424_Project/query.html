@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <title>History of Presidential Elections</title>
+
+	    <!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	    <!--My own style-->
+	    <link href="css/style.css" rel="stylesheet">
+	    <link href="css/font-awesome.min.css" rel="stylesheet">
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+
+	<body>
+
+		<!--Fixed Navbar-->
+		<!--********************************************************************************-->
+	    <nav class="navbar navbar-default navbar-fixed-top">
+	    	<div class="container">
+	    		<div class="navbar-header">
+	    			<a class="navbar-brand" href="index.html">History of Presidential Elections</a>
+	    		</div>
+
+	    		<div class="navbar-collapse collapse navbar-right">
+		          	<ul class="nav navbar-nav">
+		          		<!--Home icon-->
+		            	<li>
+					  		<a href="index.html">
+								<span class="glyphicon glyphicon-home"></span>
+								<br>
+								Home
+					  		</a>
+						</li>
+						<!--Query icon-->
+		            	<li class="active">
+							<a href="query.html">
+								<span class="glyphicon glyphicon-search"></span>
+				                <br>
+								Query
+							</a>
+						</li>
+						<!--About icon-->
+		            	<li>
+						  	<a href="#footerwrap">
+								<span class="glyphicon glyphicon-info-sign"></span>
+				                <br>
+								About
+					  		</a>
+						</li>
+		          	</ul>
+		        </div><!--/.nav-collapse -->
+	    	</div>
+	    </nav>
+
+	    <!--Main content-->
+	    <!--********************************************************************************-->
+	    <div id="headerwrap">
+	    	<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h2>Please Select The Query</h2>		
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/year.png">
+					      	<div class="caption">
+					        	<h3>Election Year</h3>
+					        	<p><a href="yearQuery.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/candidate.png">
+					      	<div class="caption">
+					        	<h3>President/Candidate</h3>
+					        	<p><a href="candidateQuery.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='350' height='180' src="images/gap.png">
+					      	<div class="caption">
+					        	<h3>Non-Contiguous</h3>
+					        	<p><a href="non_contiguous.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/swing.png">
+					      	<div class="caption">
+					        	<h3>Swing Candidate</h3>
+					        	<p><a href="swing.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/party.png">
+					      	<div class="caption">
+					        	<h3>Party Historical Query</h3>
+					        	<p><a href="partyHistoryQuery.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/state.png">
+					      	<div class="caption">
+					        	<h3>Presidents of States</h3>
+					        	<p><a href="stateQuery.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/contiguous.png">
+					      	<div class="caption">
+					        	<h3>Contiguous Presidents</h3>
+					        	<p><a href="contiguous.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/rank.png">
+					      	<div class="caption">
+					        	<h3>Presidents Vote Ranking</h3>
+					        	<p><a href="rank.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+					<div class="col-sm-6 col-md-4">
+					    <div class="thumbnail equalize">
+					      	<img width='360' height='190' src="images/top.png">
+					      	<div class="caption">
+					        	<h3>TOP 3 Party</h3>
+					        	<p><a href="top.php" class="btn btn-primary" role="button">Query</a></p>
+					      	</div>
+					    </div>
+					</div>
+
+				</div><!-- /row -->
+	    	</div> <!-- /container -->
+		</div><!-- /headerwrap -->
+
+		<!--Footer-->
+		<!--********************************************************************************-->
+		<div id="footerwrap">
+		 	<div class="container">
+			 	<div class="row">
+			 		<div class="col-lg-6">
+					  	<div class="centered">
+			 				<h4>Course</h4>
+		 					<p>just for fun</p>
+				  		</div>
+		 			</div>
+					<div class="col-lg-6">
+				  		<div class="centered">
+				 			<h4>Author</h4>
+				 			<p>Liang kai</p>
+				  		</div>
+		 			</div>
+		 		</div><!--row -->
+	 		</div><!--container-->
+	 	</div><!--footerwrap-->
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="js/bootstrap.min.js"></script>
+
+	</body>
+</html>
